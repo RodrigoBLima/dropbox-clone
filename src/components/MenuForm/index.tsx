@@ -6,7 +6,7 @@ const MenuForm: React.FC = () => {
   function handleToggleClose(){
     if(window.toggleActiveMenu) window.toggleActiveMenu()
   }
-  
+
   return (
     <>
       <Container>
@@ -22,7 +22,7 @@ const MenuForm: React.FC = () => {
             <span className="subtitle">Preencha o formulário abaixo</span>
 
             <input type="text" placeholder="Nome" name="" value=""/>
-            <input type="text"placeholder="Sobrenome" name="" value=""/>
+            <input type="text" placeholder="Sobrenome" name="" value=""/>
             <input type="text" placeholder="Email" name="" value=""/>
             <input type="text"placeholder="Senha" name="" value=""/>
           
